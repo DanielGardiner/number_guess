@@ -27,9 +27,11 @@ while (x - random_number) != 0:
     else:
         message2 = " (not even close!)"
         
+    print(message1 + message2)
+    
     x = input("Please guess a number:") 
 
         
 
-print(message1 + message2)
+
 
