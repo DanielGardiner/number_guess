@@ -1,8 +1,9 @@
-
+P
 # going to make a number guessing game
 
+
 #x = input("Please guess a number:")
-x = 799
+x = 500
 
 import random
 
@@ -23,16 +24,9 @@ elif abs(x - random_number) <= 10:
     message2 = " but close..."
 elif abs(x - random_number) <= 20:
     message2 = " sort of close..."
-else:
+elif abs(x - random_number) <= 300:
     message2 = " (not even close!)"
+else:
+    message2 = " you are SO wrong"
 
 print(message1 + message2)
-
-
-#print((x - random_number) <= 1)
-
-#print(random_number)
-
-#print(x)
-
-#print(x - random_number)
